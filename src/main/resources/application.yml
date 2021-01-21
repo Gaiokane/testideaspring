@@ -5,10 +5,9 @@ server:
 spring:
   datasource:
     name: ideatest
-    url: jdbc:mysql://localhost:3306/ideatest
-    username: root
-    password: byGaiokane!
-    #driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ideatest?useSSL=false&serverTimezone=UTC
+    username: java
+    password: java
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
